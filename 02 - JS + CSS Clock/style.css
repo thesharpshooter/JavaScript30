@@ -1,0 +1,33 @@
+.row{
+	padding-top: 10%
+}
+.clock{
+	width: 200px;
+	height: 200px;
+	border:15px solid wheat;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+.hand{
+	width: 45%;
+	height: 4px;
+	background: white;
+	position: absolute;
+	top: 50%;
+	left: 5%;
+	border-radius: 50%;
+	transform-origin: 100%;
+	transform: rotate(90deg);
+	
+	transition-timing-function: cubic-bezier(0, 0, 0.4, 1.76);
+}
+body{
+
+
+background: #5614B0; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #5614B0 , #DBD65C); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #5614B0 , #DBD65C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+}
